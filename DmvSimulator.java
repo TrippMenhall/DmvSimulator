@@ -4,7 +4,7 @@ public class DmvSimulator {
         System.out.println("Welcome to the DMV!");
 
         // Gives the user a random number between 1 and 100 and tells them to wait until their number is called
-        int randomNum = (int) (Math.random() * 100);
+        int randomNum = (int) (Math.random() * 200);
         System.out.println("Your number is: " + randomNum);
         System.out.println("Wait until your number is called!");
 
@@ -12,7 +12,7 @@ public class DmvSimulator {
         // you gave to the user and then wrap around until the user’s number is finally called last
         int num;
 
-        if (randomNum == 100) {
+        if (randomNum == 200) {
             // start from 0
             num = 0;
         }else{
@@ -23,7 +23,7 @@ public class DmvSimulator {
         do{
             System.out.println(num);
             num++;
-        }while(num <= 100);
+        }while(num <= 200);
 
         num = 0;
 
