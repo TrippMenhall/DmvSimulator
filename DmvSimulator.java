@@ -32,7 +32,12 @@ public class DmvSimulator {
             num++;
         }
 
+        if(Math.random() > 0.001){
         // Tell the user they don’t have the required paperwork
         System.out.println("Are you stupid or something? You don't have the right paperwork!");
+        }else{
+            // Tell the user that they have the correct paperwork
+            System.out.println("All set! You have the correct paperwork.");
+        }
     }
 }
