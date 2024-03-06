@@ -33,6 +33,6 @@ public class DmvSimulator {
         }
 
         // Tell the user they don’t have the required paperwork
-        System.out.println("Are you stupid or something? You don't have the right paperwork!");
+        System.out.println("Are you stupid or something? You don't have the right paperwork! MWAHAHA!!!");
     }
 }
